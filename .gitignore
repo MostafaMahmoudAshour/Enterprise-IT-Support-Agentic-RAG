@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment variants (keep the template)
+.env.*
+!.env.example
+
+# Local logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
